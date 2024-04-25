@@ -501,7 +501,7 @@ iframe.wait-autoplay {
 /*Skin */
 
 .glightbox-clean .gslide-description {
-  background: #fff;
+  background: hsla(240, 7%, 11%, 0.737);
 }
 
 .glightbox-clean .gdesc-inner {
@@ -512,7 +512,8 @@ iframe.wait-autoplay {
   font-size: 24px !important;
   font-weight: normal;
   font-family: Roboto, Helvetica, sans-serif !important;
-  color: #000;
+
+  color: #a1d8ff;
   margin-bottom: 0px;
   line-height: 1.4em;
 }
