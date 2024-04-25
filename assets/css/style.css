@@ -185,17 +185,13 @@ h6 {
   margin-bottom: 8px;
   transition: 0.3s;
   font-size: 15px;
-  
-  
 }
 
 .nav-menu a i,
-
 .nav-menu a:focus i {
   font-size: 24px;
   padding-right: 8px;
   color: #6f7180;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .nav-menu a:hover,
@@ -204,7 +200,6 @@ h6 {
 .nav-menu li:hover>a {
   text-decoration: none;
   color: #fff;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .nav-menu a:hover i,
@@ -234,7 +229,6 @@ h6 {
   line-height: 0;
   border-radius: 50px;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
 }
 
 .mobile-nav-active {
@@ -242,8 +236,7 @@ h6 {
 }
 
 .mobile-nav-active #header {
-  top: 0;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  left: 0;
 }
 html, body {
   width: 100%; /* Ensures the body takes full viewport width */
