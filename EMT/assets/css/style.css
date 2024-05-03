@@ -252,6 +252,7 @@ color: #FFFFFF;
     text-align: center;
     margin-bottom: 0px;
     text-transform: uppercase;
+    margin-left: 30px;
 }
 .widget__button:hover{
     border: 1px rgb(255, 174, 0) solid;
