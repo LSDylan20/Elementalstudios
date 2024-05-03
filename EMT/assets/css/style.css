@@ -1,0 +1,973 @@
+* {
+    margin: 1;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Neufreit';
+    src: url('../fonts/Neufreit-ExtraBold.ttf') format('ttf'),
+         url('../fonts/Neufreit-ExtraBold.woff') format('woff'),
+         url('../fonts/Neufreit-ExtraBold.eot') format('eot');
+    font-weight: 900;
+}
+#backgroundVideo{
+    position: fixed; /* Ensure the video is positioned relative to the viewport */
+    margin-top: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the video exactly in the viewport */
+    min-height: 93vh; /* Minimum height to cover the viewport */
+    max-height: 85%;
+    width: 100vw; /* Ensures the video spans the entire viewport width */
+
+    height: 100vh; /* Set height to viewport height */
+    z-index: -1; /* Ensure the video stays behind other content */
+    object-fit: fill; /* Cover the viewport while maintaining aspect ratio */
+}
+
+
+body {
+    font-family: 'Neufreit', Arial, Helvetica, sans-serif;
+    font-size: 1rem; /* Responsive font size */
+    color: #5b5b5b;
+    background-color: #000000;
+    margin: 0\ auto;
+    font-weight: 900;
+}
+
+
+
+
+/* Header styling */
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Example color, adjust as needed */
+}
+
+
+.h5 {
+    font-size: clamp(69rem, 10vw, 85px);
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+
+.mew {
+    width: clamp(192px, 30vw, 450px);
+    margin-top: 0px;
+}
+
+.h1 {
+    font-size: clamp(2rem, 5vw, 5rem);
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.logo {
+    position: absolute;
+    left: 25px;
+    top:12px;
+    width: 45px;
+}
+
+/* Responsive adjustments using media queries */
+
+
+
+
+/* .mew {
+    width: clamp( 192px, 30vw, 450px);
+    margin-top: 80px;
+}
+.h1 {
+
+    font-size: clamp(32px, 5vw, 80px);
+    color: #ffffff;
+    text-align: center;
+    margin-top: 30px;
+}
+.logo {
+    position: absolute;
+    left: 32px;
+    top: 30px;
+	width: 65px;
+} */
+.solana {
+    width: 300px;
+    margin-top: -150px;
+
+  }
+.subtitle-text {
+position: absolute;
+width: 100%;
+height: 160px;
+left: 0px;
+bottom: 300px;
+display: flex;
+justify-content: center;
+top: clamp(190px, 52vw, 62em);
+}
+.subtitle-text p {
+margin-top: 38px;
+max-width: 1200px;
+font-style: normal;
+font-size: clamp(27px, 4vw, 60px);
+line-height: 70px;
+color: #FFFFFF;
+text-shadow: 2px 3px 0px;
+-webkit-text-shadow: 2px 3px 0px black;
+-khtml-text-shadow: 2px 3px 0px black;
+-moz-text-shadow: 2px 3px 0px black;
+}
+.block7 {
+    position: relative;
+    z-index: 2222;
+    margin-top: -90px;
+}
+.text2 {
+   position: relative;
+width: 100%;
+height: 160px;
+display: flex;
+justify-content: center;
+}
+.text2 p {
+margin-top: 38px;
+max-width: 1000px;
+font-size: clamp(27px, 5vw, 60px);
+line-height: 72px;
+color: #FFFFFF;
+
+}
+
+.block2__links {
+   width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+     margin-top: clamp(0px, -12vw, -110px);
+}
+
+.link {
+    display: block;
+    padding: 10px;
+}
+.link:hover {
+    scale: 1.1;
+    transition: 250ms;
+}
+.block2 {
+    position: relative;
+    background-image: url("../images/elemental-music-studios.png");
+    background-size: cover; /* Ensures the entire image is visible, fits the content box */
+    background-position: center; /* Centers the image in the block */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    width: 100%; /* Full width of the container */
+    width: 98vw; /* Ensures the block spans the full width of the viewport */
+    height: 100vh; /* Ensures the block spans the full height of the viewport */
+
+}
+
+.block2::before {
+    content: "";
+    display: block;
+    width: 100%;
+    padding-top: (Image Height / Image Width * 90%); /* Padding-top trick for aspect ratio */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.block2 .content {
+    position: relative;
+    z-index: 1; /* Ensures content is visible above the pseudo-element */
+    width: 100%; /* Ensures content spans the width of the block */
+}
+
+    .block2__links { 
+        width: 100%; 
+        height: 100%; 
+        display: flex;
+        justify-content: center;
+        padding: 22px;
+    }
+    
+    .link {
+        display: block;
+        padding: 5px;
+     }
+  
+
+    .block2__widget {
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 90px;
+        background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(210 49 249) 0%, rgb(44 237 170) 100%);
+        box-shadow: 0px 4px 30px rgba(255, 255, 255, 0.25);
+        border-radius: 30px;
+        margin-left: 55px;
+        border: 3px solid #ff00f8;
+        width: 50%; /* Adjust width as necessary */
+    }
+    
+
+    
+    .block2__widget .content {
+        position: relative;
+        z-index: 1;
+        color: white;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+
+
+.widget__button {
+    width: 380px;
+    display: block;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 1px white solid;
+    border-radius: 90px;
+    padding: 25px 15px;
+    text-align: center;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.widget__button:hover{
+    border: 1px rgb(255, 174, 0) solid;
+    border-radius: 0px;
+    transition: 200ms;
+}
+#integrated-terminal {
+    max-width: 600px;
+    min-width: 340px;
+    width: 100%;
+}
+.block3 {
+    position: relative;
+    background-image: url("../images/elemental--music--studios.png");
+    background-size: 100% auto; /* Scales the image to fit the width, adjusts height automatically */
+    background-position: bottom center; /* Ensures the image is centered horizontally */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    width: 100%; /* Takes full width of the container */
+    padding-top: (image-height / image-width * 100%); /* Padding top as a percentage of the width */
+    margin-top: -380px; /* Adjusts the block's vertical position */
+    z-index: 2;
+}
+
+/* Use a specific class or id for container that defines the max width if needed */
+
+
+
+.block4 {
+    position: relative;
+    background-image: url("../images/elemental-music-studios.png");
+    background-size: cover; /* Ensures the background image covers the entire block */
+    background-position: center; /* Centers the background image */
+    height: 100vh; /* Sets the height relative to the viewport height */
+    margin-top: -380px; /* Adjusts the position upwards */
+    z-index: 2;
+    width: 100vw; /* Ensures the block spans the full width of the viewport */
+}
+.block4 p{
+    margin: 0 10%;
+    font-size: clamp(27px, 5vw, 60px);
+    line-height: 115px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.block6 p{
+    margin: 0 10%;
+    font-size: clamp(27px, 5vw, 60px);
+    line-height: 115px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+.block6 {
+    position: relative;
+    background-image: url("../images/img4.png");
+    background-size: contain;
+    background-position: top;
+    height: 900px;
+    margin-top: -150px;
+}
+.footer {
+    padding: 25px;
+    display: flex;
+    justify-content: absolute;
+    align-items: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+.footer__link img{
+    width: 25px;
+    margin-left: 7px;
+}
+.footer__text {
+    font-size: 17px;
+    color: white;
+}
+.footer__text a {
+    color: white;
+}
+.footer__link {
+    text-decoration: none;
+    opacity: 100%;
+}
+
+  .navbar {
+    position: fixed;
+    top: 9px;
+    right: 25px;
+    padding: 10px;
+    z-index: 4111;
+  }
+  
+  .menu-toggle {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .bar {
+    position: relative;
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+    transition: transform 0.3s ease;
+    z-index: 111;
+  }
+  
+  .bar.bar1.cross { 
+    transform: rotate(45deg) translate(5px, 6px);
+  }
+  
+  .bar.bar2.cross { 
+    opacity: 0;
+  }
+  
+  .bar.bar3.cross { 
+    transform: rotate(-45deg) translate(5px, -6px);
+  }
+  
+  .menu {
+    width: 250px;
+    height: 100vh;
+    list-style-type: none;
+    margin: 0;
+    display: none;
+    position: absolute;
+    top: -10px; 
+    right: -50px; 
+    background-color: #333;
+    opacity: 70%;
+    padding: 30vh 30px 0 0;
+    border-radius: 5px;
+    box-shadow: 9 8px 8px rgba(0, 0, 0, 0.2); 
+
+  }
+
+.menu.active {
+    display: block;
+  }
+  
+  .menu li {
+    margin-bottom: 40px;
+    margin-left: 50px;
+    opacity: 100%;
+  }
+  
+  .menu li:last-child {
+    margin-bottom: 0;
+
+  }
+  .menu img {
+    position: absolute;
+    top: 90px;
+    right: 41%;
+    width: 100px;
+  }
+  .menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s ease; 
+  }
+  
+  .menu li a:hover {
+    color: #5093ff; 
+  }
+
+
+
+
+@media screen and (max-width: 1270px) {
+
+        .subtitle-text p {
+        /* font-size: 50px; */
+        line-height: 70px;
+
+        }
+        .text2 p {
+        /* font-size: 50px; */
+        }
+        .block2__widget{
+            display: flex;
+            justify-content:center ;
+            align-items: center;
+            flex-wrap: wrap;
+            padding: 30px 200px;
+            margin: 10px 15px;
+        }
+      .link img {
+        width: 100%;
+    }
+        
+}
+.h5 {
+    /* font-size: 38px; */
+    font-size: clamp(58px, 5vw, 50px);
+    text-align: center;
+    /* margin-top: 10px; */
+    margin-top: -10px;
+    padding: 0px;
+}
+
+.solana {
+    width: 300px;
+    margin-top: -100px;
+
+  }
+
+@media screen and (max-width: 1268px) {
+  .header {
+    min-height: 900px;
+  }
+  .link img {
+    width: 100%;
+}
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    min-height: 800px;
+  }
+  .link img {
+    width: 100%;
+}
+}
+.solana {
+    width: 300px;
+    margin-top: -100px;
+
+  }
+
+@media screen and (max-width: 920px) {
+  .header {
+    min-height: 700px;
+  }
+  .link img {
+    width: 100%;
+}
+}
+.solana {
+    width: 300px;
+    margin-top: -100px;
+
+  }
+
+@media screen and (max-width: 800px) {
+  .header {
+    min-height: 650px;
+  }
+  .link img {
+    width: 100%;
+}
+}
+.solana {
+    width: 300px;
+    margin-top: -50px;
+
+  }
+
+
+
+@media screen and (max-width: 768px) {
+    .block2 {
+        position: relative;
+        background-image: url("../images/elemental-music-studios.png");
+        background-size: cover; /* Ensures the entire image is visible, fits the content box */
+        background-position: center; /* Centers the image in the block */
+        background-repeat: no-repeat; /* Prevents the background image from repeating */
+        width: 100%; /* Full width of the container */
+        width: 110vw; /* Ensures the block spans the full width of the viewport */
+        height: 100vh; /* Ensures the block spans the full height of the viewport */
+        margin-left: -8px;
+    
+    }
+    .link:hover {
+        scale: 1;
+        transition: 0ms;
+    }
+
+    .mew {
+        /* width: 110px; */
+        margin-top: 50px;
+    }
+
+    .widget__button:hover{
+        border: 1px white solid;
+        border-radius: 90px;
+        transition: 0ms;
+    }
+    .header {
+        overflow: hidden;
+        position: relative;
+        background-size: 100% auto;
+        background-position: top;
+        min-height: 620px;
+        width: 100%;
+    }
+    .h1 {
+        /* font-size: 38px; */
+        text-align: center;
+        /* margin-top: 10px; */
+        margin-top: 25px;
+        padding: 0 25px;
+    }
+    .h5 {
+         font-size: 54px; 
+        text-align: center;
+        /* margin-top: 10px; */
+        margin-top: -10px;
+
+    }
+    .logo {
+        top: 10px;
+        left: 25px;
+        width: 40px;
+    }
+    .navbar {
+      top: 5px;
+      right: 10px;
+      padding: 10px;
+    }    
+    .block7 {
+        position: relative;
+        z-index: 2222;
+        margin-top: -10px;
+    }
+    .text2 {
+       position: relative;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    }
+    .subtitle-text {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    /* top: 500px; */
+    }
+    .solana {
+        width: 300px;
+        margin-top: -100px;
+    
+      }
+    .subtitle-text p {
+      margin-top: 10px;
+      margin-left: 15px;
+      max-width: 600px;
+      width: 100%;
+      padding-right: 20px;
+      /* font-size: 27px; */
+      line-height: 33px;
+      color: #FFFFFF;
+    }
+
+    .text2 p {
+    /* font-size: 27px; */
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    }
+    .block2__links {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 0 10px;
+    }
+    
+    .link {
+        display: block;
+        padding: 5px;
+    }
+    .link img {
+        width: 100%;
+    }
+    .block2 {
+        /* position: relative; */
+        z-index: 11;
+        /* margin-top: -100px; */
+        position: absolute;
+        z-index: 11;
+        /* margin-top: 22vw; */
+        top: 228vw;
+    }
+    .block2__widget{
+        display: flex;
+        justify-content:center ;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 30px 20px;
+        border-radius: 30px;
+        margin: 10px;
+        margin-top: 0px;
+    }
+    .or {
+        text-align: center;
+        font-size: 35px;
+        color: white;
+        padding: 0 20px;
+    }
+    .widget__button {
+        max-width: 380px;
+        width: 100%;
+        min-width: 320px;
+        display: block;
+        text-decoration: none;
+        color: #FFFFFF;
+        border: 1px white solid;
+        border-radius: 90px;
+        padding: 25px 15px;
+        text-align: center;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    #integrated-terminal {
+        max-width: 600px;
+        width: 100%;
+    }
+
+    .block3 {
+        position: relative;
+        height: 1200px;
+        margin-top: 110px;
+        z-index: 2;
+    }
+
+    .block4 {
+        position: relative;
+        margin-bottom: 0;
+        margin-top: 0;
+        z-index: 2;
+    }
+    .block4 p{
+    /* font-size: 32px; */
+    line-height: 36px;
+    padding: 0 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: -120px;
+    }
+    .block5 {
+        position: relative;
+        height: 340px;
+        margin-top: -40px;
+    }
+    .block6 {
+        position: relative;
+        height: 380px;
+        margin-top: 90px;
+    }
+    .footer {
+        text-align: center;
+        padding-bottom: 30px;
+        flex-direction: column;
+                background-color: #000000;
+    }
+    .footer img {
+        width: 30px;
+    }
+
+    .footer__links {
+        margin-top: 20px;
+
+    }
+}
+.block2 {
+    position: relative;
+    background-image: url("../images/elemental-music-studios.png");
+    background-size: 100% 100%; /* Stretches the image to cover the specified area completely */
+    background-position: center; /* Centers the image in the block */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    width: 110%; /* Full width of the container */
+    height: 100vh; /* Full height of the viewport */
+    margin-left: -8px; /* Adjusts the positioning to the left */
+}
+
+
+@media screen and (max-width: 600px) {
+    .h5 {
+        /* font-size: 38px; */
+        font-size: clamp(58px, 5vw, 50px);
+        text-align: center;
+        /* margin-top: 10px; */
+        margin-top: -10px;
+        padding: 0px;
+    }
+    
+    .link:hover {
+        scale: 1;
+        transition: 0ms;
+    }
+    .mew {
+        /* width: 110px; */
+        margin-top: 50px;
+    }
+
+    .widget__button:hover{
+        border: 1px white solid;
+        border-radius: 90px;
+        transition: 0ms;
+    }
+    #backgroundVideo{
+        position: fixed; /* Ensure the video is positioned relative to the viewport */
+        margin-top: 40px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* Center the video exactly in the viewport */
+        min-height: 93vh; /* Minimum height to cover the viewport */
+        max-height: 85%;
+        width: 120vw; /* Ensures the video spans the entire viewport width */
+    
+        height: 100vh; /* Set height to viewport height */
+        z-index: -1; /* Ensure the video stays behind other content */
+        object-fit: fill; /* Cover the viewport while maintaining aspect ratio */
+    }
+/* Header styling */
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white; /* Example color, adjust as needed */
+}
+    .h1 {
+        /* font-size: 38px; */
+        font-size: clamp(20px, 5vw, 50px);
+        text-align: center;
+        /* margin-top: 10px; */
+        margin-top: 20px;
+        padding: 0 25px;
+    }
+    .h5 {
+        /* font-size: 38px; */
+        font-size: clamp(58px, 5vw, 50px);
+        text-align: center;
+        /* margin-top: 10px; */
+        margin-top: -10px;
+        padding: 0px;
+    }
+    .logo {
+        top: 10px;
+        left: 15px;
+        width: 40px;
+    }
+    .navbar {
+      top: 7px;
+      right: 10px;
+      padding: 10px;
+    }    
+    .block7 {
+        position: relative;
+        z-index: 2222;
+        margin-top: -10px;
+    }
+    .text2 {
+       position: relative;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    }
+    .subtitle-text {
+    position: absolute;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    /* top: 500px; */
+    }
+    .solana {
+        width: 300px;
+        margin-top: 0;
+      }
+    .subtitle-text p {
+      margin-top: 10px;
+      margin-left: 15px;
+      max-width: 600px;
+      width: 100%;
+      padding-right: 20px;
+      /* font-size: 27px; */
+      line-height: 33px;
+      color: #FFFFFF;
+    }
+
+    .text2 p {
+    /* font-size: 27px; */
+    line-height: 0px;
+    color: #FFFFFF;
+    text-align: center;
+    }
+    .block2__links {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 2px;
+        gap: 8px;
+    }
+    
+    .link {
+        width: 61px;
+        height: 490px;
+        display: inline-block;
+        line-height: 0px;
+        padding-top: 7px;
+        padding-bottom: 2px;
+    }
+    .link img {
+        width: 100%;
+    }
+    .block2 {
+        position: relative;
+        background-image: url("../images/elemental-music-studios.png");
+        margin-top: -300px;
+        background-size:100% 100%; /* Stretches the image to cover the specified area completely */
+        background-position: center; /* Centers the image in the block */
+        background-repeat: no-repeat; /* Prevents the background image from repeating */
+        width: 110%; /* Full width of the container */
+        height: 100vh; /* Full height of the viewport */
+        margin-left: -10px; /* Adjusts the positioning to the left */
+        margin-bottom: 10px !important;
+    }
+    
+    .block2__widget{
+        width: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 50px 0px;
+        border: 0px;
+        border-radius: 30px;
+        margin-top: 10px;
+    }
+    .or {
+        text-align: center;
+        font-size: 35px;
+        color: white;
+        padding: 0 20px;
+    }
+    .widget__button {
+        max-width: 280px;
+        width: 100%;
+        min-width: 220px;
+        display: block;
+        text-decoration: none;
+        color: #FFFFFF;
+        border: 1px white solid;
+        border-radius: 90px;
+        padding: 25px 15px;
+        text-align: center;
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
+    #integrated-terminal {
+        max-width: 300px;
+        width: 70%;
+    }
+
+    .block3 {
+        position: relative;
+        height: 360px;
+        margin-top: 110px;
+        z-index: 2;
+    }
+
+    .block4 {
+        position: relative;
+        margin-bottom: 0;
+        margin-top: 0;
+        z-index: 2;
+    }
+    .block4 p{
+    /* font-size: 32px; */
+    line-height: 36px;
+    padding: 0 25px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: -120px;
+    }
+    .block5 {
+        position: relative;
+        height: 340px;
+        margin-top: -40px;
+    }
+    .block6 {
+        position: relative;
+        height: 380px;
+        margin-top: 90px;
+    }
+    .footer {
+        text-align: center;
+        padding-bottom: 30px;
+        flex-direction: column;
+        background-color: #000000;
+    }
+    .footer img {
+        width: 30px;
+    }
+
+    .footer__links {
+        margin-top: 20px;
+
+    }
+}
+.solana {
+    width: 300px;
+    margin-top: -100px;
+    margin-bottom: 10;
+
+  }

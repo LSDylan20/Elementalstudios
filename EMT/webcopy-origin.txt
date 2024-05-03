@@ -1,0 +1,108 @@
+Uri: https://code.jquery.com/jquery-3.6.1.min.js
+File Name: C:\Downloaded Web Sites\EMT.xyz\jquery-3.6.1.min.js
+Content Type: application/javascript
+
+Uri: https://EMT.xyz/
+File Name: C:\Downloaded Web Sites\EMT.xyz\index.htm
+Content Type: text/html
+
+Uri: https://EMT.xyz/assets/css/reset.css
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\css\reset.css
+Content Type: text/css
+
+Uri: https://EMT.xyz/assets/css/style.css
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\css\style.css
+Content Type: text/css
+
+Uri: https://EMT.xyz/assets/fonts/Neufreit-ExtraBold.eot
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\fonts\Neufreit-ExtraBold.eot
+Content Type: null
+
+Uri: https://EMT.xyz/assets/fonts/Neufreit-ExtraBold.ttf
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\fonts\Neufreit-ExtraBold.ttf
+Content Type: font/ttf
+
+Uri: https://EMT.xyz/assets/fonts/Neufreit-ExtraBold.woff
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\fonts\Neufreit-ExtraBold.woff
+Content Type: font/woff
+
+Uri: https://EMT.xyz/assets/images/1.svg
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\1.svg
+Content Type: image/svg+xml
+
+Uri: https://EMT.xyz/assets/images/2.png
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\2.png
+Content Type: image/png
+
+Uri: https://EMT.xyz/assets/images/favicon.png
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\favicon.png
+Content Type: image/png
+
+Uri: https://EMT.xyz/assets/images/Img1.png
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\Img1.png
+Content Type: image/png
+
+Uri: https://EMT.xyz/assets/images/img2.png
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\img2.png
+Content Type: image/png
+
+Uri: https://EMT.xyz/assets/images/img3.png
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\img3.png
+Content Type: image/png
+
+Uri: https://EMT.xyz/assets/images/img4.png
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\img4.png
+Content Type: image/png
+
+Uri: https://EMT.xyz/assets/images/Logo.svg
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\Logo.svg
+Content Type: image/svg+xml
+
+Uri: https://EMT.xyz/assets/images/Mask_group.svg
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\Mask_group.svg
+Content Type: image/svg+xml
+
+Uri: https://EMT.xyz/assets/images/EMT500.png
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\EMT500.png
+Content Type: image/png
+
+Uri: https://EMT.xyz/assets/images/okx_dex_logo_white.svg
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\okx_dex_logo_white.svg
+Content Type: image/svg+xml
+
+Uri: https://EMT.xyz/assets/images/phantom.png
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\phantom.png
+Content Type: image/png
+
+Uri: https://EMT.xyz/assets/images/solana.svg
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\solana.svg
+Content Type: image/svg+xml
+
+Uri: https://EMT.xyz/assets/images/solscan.png
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\solscan.png
+Content Type: image/png
+
+Uri: https://EMT.xyz/assets/images/Subtract.png
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\Subtract.png
+Content Type: image/png
+
+Uri: https://EMT.xyz/assets/images/Tg.svg
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\Tg.svg
+Content Type: image/svg+xml
+
+Uri: https://EMT.xyz/assets/images/twitter.png
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\twitter.png
+Content Type: image/png
+
+Uri: https://EMT.xyz/assets/images/twitter2.svg
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\images\twitter2.svg
+Content Type: image/svg+xml
+
+Uri: https://EMT.xyz/assets/js/script.js
+File Name: C:\Downloaded Web Sites\EMT.xyz\assets\js\script.js
+Content Type: application/javascript
+
+Uri: https://terminal.jup.ag/main-v2.js
+File Name: C:\Downloaded Web Sites\EMT.xyz\main-v2.js
+Content Type: application/javascript
+
