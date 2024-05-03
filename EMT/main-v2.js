@@ -1,4 +1,4 @@
-/*! For license information please see main-2.2.2.js.LICENSE.txt */
+
 (() => {
     var e,
         t,
