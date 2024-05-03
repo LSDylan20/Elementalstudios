@@ -224,7 +224,7 @@ color: #FFFFFF;
         border-radius: 30px;
         margin-left: 55px;
         border: 3px solid #ff00f8;
-        width: 40%; /* Adjust width as necessary */
+        width: 50%; /* Adjust width as necessary */
     }
     
 
@@ -242,7 +242,7 @@ color: #FFFFFF;
 
 
 .widget__button {
-    width: 300px;
+    width: 380px;
     display: block;
     text-decoration: none;
     color: #FFFFFF;
@@ -252,7 +252,6 @@ color: #FFFFFF;
     text-align: center;
     margin-bottom: 0px;
     text-transform: uppercase;
-    margin-left: 30px;
 }
 .widget__button:hover{
     border: 1px rgb(255, 174, 0) solid;
