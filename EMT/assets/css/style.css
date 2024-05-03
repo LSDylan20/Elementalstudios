@@ -203,12 +203,13 @@ color: #FFFFFF;
         height: 100%; 
         display: flex;
         justify-content: center;
-        padding: 22px;
+        padding: px;
+        margin-left: -3%;
     }
     
     .link {
         display: block;
-        padding: 5px;
+        padding: px;
      }
   
 
