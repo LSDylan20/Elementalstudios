@@ -224,7 +224,7 @@ color: #FFFFFF;
         border-radius: 30px;
         margin-left: 55px;
         border: 3px solid #ff00f8;
-        width: 50%; /* Adjust width as necessary */
+        width: 40%; /* Adjust width as necessary */
     }
     
 
@@ -242,7 +242,7 @@ color: #FFFFFF;
 
 
 .widget__button {
-    width: 380px;
+    width: 300px;
     display: block;
     text-decoration: none;
     color: #FFFFFF;
