@@ -1,8 +1,7 @@
 RewriteEngine On
-RewriteCond %{THE_REQUEST} ^GET\ /index(\.html)?(\?.*)?\ HTTP/
-RewriteRule ^index(\.html)?$ / [R=301,L]
-
-# Continue with other rewrite rules to remove .html
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^([^\.]+)$ $1.html [NC,L]
+RewriteRule ^(.*)\.html$ /$1 [L,R=301]
+
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L,QSA]
