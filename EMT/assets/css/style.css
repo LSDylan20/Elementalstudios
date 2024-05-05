@@ -795,7 +795,7 @@ margin-top: -9px;
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 560px) {
     .h5 {
         /* font-size: 38px; */
         font-size: clamp(58px, 5vw, 50px);
@@ -1023,7 +1023,7 @@ margin-top: -9px;
         display: flex;
         justify-content: center
         align-items: center;
-        margin-right: 205px;
+        margin-right:196px;
         margin-top: 10px;
 
 
