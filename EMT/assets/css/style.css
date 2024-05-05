@@ -942,12 +942,12 @@ margin-top: -9px;
         background-repeat: no-repeat; /* Prevents the background image from repeating */
         width: 110%; /* Full width of the container */
         height: 100vh; /* Full height of the viewport */
-        margin-left: -10px; /* Adjusts the positioning to the left */
+        margin-left: -13px; /* Adjusts the positioning to the left */
         margin-top: 0px ;
     }
     
     .block2__widget{
-        width: 97%;
+        width: 98%;
         display: flex;
         justify-content:center;
         align-items: center;
