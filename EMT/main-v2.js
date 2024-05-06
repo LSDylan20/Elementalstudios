@@ -20796,6 +20796,19 @@ function scrollToTop() {
   });
 }
 
+// Function to handle navigation
+const handleNavigation = (event) => {
+    event.preventDefault();
+    const targetUrl = event.target.getAttribute('href');
+    
+    // Remove .html extension if the target URL ends with .html and is not the root URL
+    const cleanUrl = targetUrl.endsWith('.html') && targetUrl !== '/EMT/EMT.html'
+        ? targetUrl.slice(0, -5) // Remove last 5 characters (.html)
+        : targetUrl;
+    
+    history.pushState({}, '', cleanUrl);
+    renderContent();
+};
 
 
 //# sourceMappingURL=main-2.2.2.js.map
