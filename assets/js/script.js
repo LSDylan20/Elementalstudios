@@ -101,19 +101,4 @@
     });
   })();
   // Function to handle navigation
-// Function to handle navigation
-// Function to handle navigation
-const handleNavigation = (event) => {
-  event.preventDefault();
-  const targetUrl = event.target.getAttribute('href');
-  
-  // Check if the target URL ends with .html and is not the root URL
-  const cleanUrl = targetUrl.endsWith('.html') && targetUrl !== '/'
-      ? targetUrl.slice(0, -5) // Remove last 5 characters (.html)
-      : targetUrl;
-  
-  history.pushState({}, '', cleanUrl);
-  renderContent();
-};
-
 
