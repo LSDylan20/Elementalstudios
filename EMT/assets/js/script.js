@@ -20,14 +20,24 @@ function scrollToTop() {
 // Function to handle navigation
 const handleNavigation = (event) => {
   event.preventDefault();
-  const targetUrl = event.target.getAttribute('href');
   
-  // Remove .html extension if the target URL ends with .html
-  const cleanUrl = targetUrl.endsWith('.html')
-      ? targetUrl.slice(0, -5) // Remove last 5 characters (.html)
-      : targetUrl;
+  // Get the target URL from the anchor element's href attribute
+  const targetUrl = new URL(event.target.href);
   
-  history.pushState({}, '', cleanUrl);
+  // Check if the pathname ends with .html and is not the root URL
+  if (targetUrl.pathname.endsWith('.html') && targetUrl.pathname !== '/') {
+      // Remove .html extension from the pathname
+      const cleanPathname = targetUrl.pathname.slice(0, -5);
+      // Construct the new URL without .html extension
+      const newUrl = targetUrl.origin + cleanPathname + targetUrl.search + targetUrl.hash;
+      // Update the URL using History API
+      history.pushState({}, '', newUrl);
+  } else {
+      // Use the original target URL as is
+      history.pushState({}, '', targetUrl.href);
+  }
+
+  // Render content based on the updated URL
   renderContent();
 };
 
