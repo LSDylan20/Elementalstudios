@@ -108,7 +108,8 @@ body {
 } */
 .solana {
     width: 300px;
-    margin-top: -150px;
+    margin-top: -90px;
+    margin-right: 29px;
 
   }
 .subtitle-text {
@@ -178,8 +179,8 @@ color: #FFFFFF;
     background-repeat: no-repeat; /* Prevents the background image from repeating */
     width: 100%; /* Full width of the container */
     width: 98vw; /* Ensures the block spans the full width of the viewport */
-    height: 99vh; /* Ensures the block spans the full height of the viewport */
-    margin-bottom: ;
+    height: 110vh; /* Ensures the block spans the full height of the viewport */
+    margin-bottom: -10px;
 
 }
 
@@ -226,10 +227,10 @@ color: #FFFFFF;
         box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.25);
         border-radius: 30px;
         margin-left: 55px;
-        border: 3px solid rgb(44 237 170);
+        border: px solid rgb(44 237 170);
         width: 30%; /* Adjust width as necessary */
-        height: 41%;
-        margin-bottom: -7%;
+        height: 51%;
+        margin-top: 7;
     }
     
 
@@ -268,7 +269,8 @@ color: #FFFFFF;
     max-width: 470px;
     min-width: 400px;
     width: 100%;
-    height: 87%;
+    margin-bottom: -203px;
+
     
 }
 .block3 {
@@ -458,7 +460,7 @@ margin-top: -9px;
             align-items: center;
             flex-wrap: wrap;
             padding: 30px 200px;
-            margin-bottom: -120px;
+            margin-bottom: 120px;
         }
       .link img {
         width: 100%;
@@ -476,20 +478,10 @@ margin-top: -9px;
 
 .solana {
     width: 300px;
-    margin-top: -100px;
+    margin-top: -90px;
 
   }
-  .block2__widget{
-    display: flex;
-    justify-content:center ;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: -40px 20px;
-    border-radius: 30px;
-    margin: 0px;
-    margin-bottom: -100px;
-    height: 41%;
-}
+
 
 @media screen and (max-width: 1268px) {
   .header {
@@ -507,8 +499,13 @@ margin-top: -9px;
     padding: -30px 20px;
     border-radius: 30px;
     margin: 0px;
-    margin-bottom: -120px;
+    margin-bottom: -80px;
 }
+.solana {
+    width: 300px;
+    margin-top: -90px;
+
+  }
 
 @media screen and (max-width: 1024px) {
   .header {
@@ -520,7 +517,7 @@ margin-top: -9px;
 }
 .solana {
     width: 300px;
-    margin-top: -100px;
+    margin-top: -120px;
 
   }
 
@@ -534,20 +531,11 @@ margin-top: -9px;
 }
 .solana {
     width: 300px;
-    margin-top: -100px;
+    margin-top: -120px;
 
   }
-  .block2__widget{
-    display: flex;
-    justify-content:center ;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: -30px 20px;
-    border-radius: 30px;
-    margin: 0px;
-    margin-bottom: -120px;
-    width: 32%;
-}
+  
+
 
 @media screen and (max-width: 800px) {
   .header {
@@ -559,15 +547,28 @@ margin-top: -9px;
 }
 .solana {
     width: 300px;
-    margin-top: -50px;
+    margin-top: -120px;
 
   }
+  .block2__widget{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: -30px 20px;
+    border-radius: 30px;
+    margin: 0px;
+    margin-bottom: -107px;
+    height: 42%;
+    width: 36%;
+    margin-left: 30px;
+}
   
 
   #integrated-terminal {
     max-width: 300px;
-    width: 100% !important;
-    margin-top: -50px;
+    width: 100% ;
+    margin-top: -195px;
 }
 
 @media screen and (max-width: 768px) {
@@ -651,7 +652,8 @@ margin-top: -9px;
     }
     .solana {
         width: 300px;
-        margin-top: -100px;
+        margin-top: -110px;
+        margin-bottom: 3px;
     
       }
     .subtitle-text p {
@@ -703,7 +705,9 @@ margin-top: -9px;
         padding: -30px 20px;
         border-radius: 30px;
         margin: 0px;
-        margin-bottom: -120px;
+        margin-bottom: -140px;
+        margin-left: 19px;
+        height: 42%;
     }
     .or {
         text-align: center;
@@ -722,13 +726,13 @@ margin-top: -9px;
         border-radius: 90px;
         padding: 25px 15px;
         text-align: center;
-        margin-bottom: -100px;
+        margin-bottom: -50px;
         text-transform: uppercase;
     }
     #integrated-terminal {
-        max-width: 600px;
-        margin-bottom: 48px;
-        width: 100%;
+        max-width: 300px;
+        width: 70%;
+        margin-top: -199px
     }
 
     .block3 {
@@ -891,7 +895,7 @@ margin-top: -9px;
     }
     .solana {
         width: 300px;
-        margin-top: 0;
+        margin-bottom: 3px;
       }
     .subtitle-text p {
       margin-top: 10px;
@@ -942,7 +946,7 @@ margin-top: -9px;
         background-repeat: no-repeat; /* Prevents the background image from repeating */
         width: 110%; /* Full width of the container */
         height: 100vh; /* Full height of the viewport */
-        margin-left: -13px; /* Adjusts the positioning to the left */
+        margin-left: -12px; /* Adjusts the positioning to the left */
         margin-top: 0px ;
     }
     
@@ -956,8 +960,8 @@ margin-top: -9px;
         border: 0px;
         border-radius: 30px;
         margin-top: 0px;
-        margin-bottom: -140px;
-        margin-right: -4px;
+        margin-bottom: -130px;
+        margin-right: 19px;
 
     }
     .or {
@@ -983,7 +987,7 @@ margin-top: -9px;
     #integrated-terminal {
         max-width: 300px;
         width: 70%;
-        margin-top: -80px;
+        margin-top: -196px
     }
 
     .block3 {
@@ -1047,7 +1051,7 @@ margin-top: -9px;
 .solana {
     width: 300px;
     height: 25px;
-    margin-top: -100px;
+    margin-top: -95px;
     margin-bottom: 10;
 
   }
