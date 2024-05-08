@@ -157,7 +157,7 @@ color: #FFFFFF;
 
 .block2__links {
    width: 100%;
-    height: 100%;
+
     display: flex;
     justify-content: center;
      margin-top: clamp(0px, -12vw, -110px);
@@ -173,42 +173,43 @@ color: #FFFFFF;
 }
 .block2 {
     position: relative;
-    background-image: url("./elemental-music--studios.png") !important;
-    background-size: cover; /* Ensures the entire image is visible, fits the content box */
-    background-position: center; /* Centers the image in the block */
+    background-image: url("/assets/css/-EMT- image.png") !important;
+    background-size: fill; /* Ensures the entire image is visible, fits the content box */
+    background-position: right; /* Centers the image in the block */
     background-repeat: no-repeat; /* Prevents the background image from repeating */
-    width: 100%; /* Full width of the container */
-    width: 98vw; /* Ensures the block spans the full width of the viewport */
-    height: 110vh; /* Ensures the block spans the full height of the viewport */
-    margin-bottom: -10px;
+    width: 200%; /* Full width of the container */
+    width: 100vw; /* Ensures the block spans the full width of the viewport */
+    height: 104vh; /* Ensures the block spans the full height of the viewport */
+    margin-bottom: 0px;
+    margin-left: -9px;
+    
+    
 
 }
 
-.block2::before {
-    content: "";
-    display: block;
-    width: 100%;
-    padding-top: (Image Height / Image Width * 90%); /* Padding-top trick for aspect ratio */
-    position: absolute;
-    top: 0;
-    left: 0;
-}
 
 .block2 .content {
     position: relative;
     z-index: 1; /* Ensures content is visible above the pseudo-element */
     width: 100%; /* Ensures content spans the width of the block */
+    height: 100%; 
 }
 
     .block2__links { 
         width: 100%; 
-        height: 100%; 
+        height: 20%; 
+        display: flex;
+        justify-content: center;
+        padding: 1px;
+    }
+    .block2__cont { 
+        width: 100%; 
+        height: 100vh; 
         display: flex;
         justify-content: center;
         padding: px;
         margin-left: -3%;
     }
-    
     .link {
         display: block;
         padding: px;
@@ -331,23 +332,27 @@ color: #FFFFFF;
     align-items: center;
     padding-bottom: 1px;
     padding-top: 1px;
-    margin-right: 190px;
-    margin-top: 30px;
-    margin-bottom: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 35px;
 }
 .footer__link img{
     width: 25px;
     margin-left: 7px;
-    margin-bottom: 43px;
+    margin-top: 23px;
+    align-items: center;
 }
 .footer__text {
     font-size: 37px;
     color: white;
-margin-top: -9px;
+margin-top: 15px;
+align-items: center;
+margin-bottom: -5px;
 }
 .footer__text a {
     color: white;
-    margin-bottom: 10px;
+    align-items: center;
+
 }
 .footer__link {
     display: flex;
@@ -468,6 +473,10 @@ margin-top: -9px;
     }
         
 }
+.block2 {
+    position: relative;
+    background-image: url("/assets/css/EMT-img.png");
+    background-size: cover; /* Ensures the entire image is visible, fits the content box */}
 .h5 {
     /* font-size: 38px; */
     font-size: clamp(58px, 5vw, 50px);
@@ -521,6 +530,7 @@ margin-top: -9px;
     margin-top: -120px;
 
   }
+  
 
 @media screen and (max-width: 920px) {
   .header {
@@ -559,7 +569,7 @@ margin-top: -9px;
     padding: -30px 20px;
     border-radius: 30px;
     margin: 0px;
-    margin-bottom: -110px;
+    margin-bottom: -115px;
     height: 41.5%;
     width: 36%;
     margin-left: 30px;
@@ -575,7 +585,7 @@ margin-top: -9px;
 @media screen and (max-width: 768px) {
     .block2 {
         position: relative;
-        background-image: url("../images/elemental-music-studios.png");
+        background-image: url("/assets/css/EMT-img.png");
         background-size: cover; /* Ensures the entire image is visible, fits the content box */
         background-position: center; /* Centers the image in the block */
         background-repeat: no-repeat; /* Prevents the background image from repeating */
@@ -674,6 +684,17 @@ margin-top: -9px;
     color: #FFFFFF;
     text-align: center;
     }
+    .block2 {
+        position: relative;
+        background-image: url("/assets/css/EMT-img.png");
+        background-size: 100% 100%; /* Stretches the image to cover the specified area completely */
+        background-position: center; /* Centers the image in the block */
+        background-repeat: no-repeat; /* Prevents the background image from repeating */
+        width: 103%; /* Full width of the container */
+        height: 100vh; /* Full height of the viewport */
+        margin-left: -8px; /* Adjusts the positioning to the left */
+    }
+    
     .block2__links {
         width: 100%;
         height: 100%;
@@ -689,15 +710,7 @@ margin-top: -9px;
     .link img {
         width: 100%;
     }
-    .block2 {
-        /* position: relative; */
-        z-index: 11;
-        /* margin-top: -100px; */
-        position: absolute;
-        z-index: 11;
-        /* margin-top: 22vw; */
-        top: 228vw;
-    }
+
     .block2__widget{
         display: flex;
         justify-content:center ;
@@ -773,7 +786,7 @@ margin-top: -9px;
         display: flex;
         justify-content: flex-end;
         align-items: flex-end;
-        margin-right: 60px;
+        margin-right: 10px;
         margin-top: 25px;
         margin-bottom: -10px;
 
@@ -787,16 +800,6 @@ margin-top: -9px;
         margin-top: 0px;
 
     }
-}
-.block2 {
-    position: relative;
-    background-image: url("../images/elemental-music-studios.png");
-    background-size: 100% 100%; /* Stretches the image to cover the specified area completely */
-    background-position: center; /* Centers the image in the block */
-    background-repeat: no-repeat; /* Prevents the background image from repeating */
-    width: 110%; /* Full width of the container */
-    height: 100vh; /* Full height of the viewport */
-    margin-left: -8px; /* Adjusts the positioning to the left */
 }
 
 
@@ -915,43 +918,7 @@ margin-top: -9px;
     line-height: 0px;
     color: #FFFFFF;
     text-align: center;
-    }
-    .block2__links {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-        margin-bottom: 2px;
-        gap: 8px;
-    }
-    
-    .link {
-        width: 61px;
-        height: 490px;
-        display: inline-block;
-        line-height: 0px;
-        padding-top: 7px;
-        padding-bottom: 2px;
-    }
-    .link img {
-        width: 100%;
-    }
-    .block2 {
-        position: relative;
-        background-image: url("../images/elemental-music-studios.png");
-        margin-top: -300px;
-        background-size:100% 100%; /* Stretches the image to cover the specified area completely */
-        background-position: center; /* Centers the image in the block */
-        background-repeat: no-repeat; /* Prevents the background image from repeating */
-        width: 110%; /* Full width of the container */
-        height: 100vh; /* Full height of the viewport */
-        margin-left: -12px; /* Adjusts the positioning to the left */
-        margin-top: 0px ;
-    }
-    
+    }    
     .block2__widget{
         width: 99%;
         display: flex;
@@ -961,8 +928,8 @@ margin-top: -9px;
         padding: 50px 0px;
         border: 0px;
         border-radius: 30px;
-        margin-top: 0px;;
-        margin-bottom: -130px;
+        margin-top: 0px;
+        margin-bottom: -140px;
         margin-right: 19px;
 
     }
@@ -991,6 +958,44 @@ margin-top: -9px;
         width: 70%;
         margin-top: -196px
     }
+    .block2 {
+        position: relative;
+        background-image: url("/assets/css/EMT-img.png");
+        margin-top: -300px;
+        background-size:100% 100%; /* Stretches the image to cover the specified area completely */
+        background-position: right; /* Centers the image in the block */
+        background-repeat: no-repeat; /* Prevents the background image from repeating */
+        width: 103%; /* Full width of the container */
+        height: 100vh; /* Full height of the viewport */
+        margin-left: -8px; /* Adjusts the positioning to the left */
+        margin-top: 0px ;
+    }
+    .block2__links {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 2px;
+        gap: 8px;
+    }
+    
+    .link {
+        width: 61px;
+        height: 490px;
+        display: inline-block;
+        line-height: 0px;
+        padding-top: 7px;
+        padding-bottom: 2px;
+    }
+    .link img {
+        width: 100%;
+    }
+
+    
+
 
     .block3 {
         position: relative;
@@ -1029,8 +1034,8 @@ margin-top: -9px;
         display: flex;
         justify-content: center
         align-items: center;
-        margin-right:196px;
-        margin-top: 10px;
+        margin-right:150px;
+        margin-top: 0px;
 
 
     }
@@ -1052,7 +1057,7 @@ margin-top: -9px;
 }
 .solana {
     width: 300px;
-    height: 25px;
+    height: 20px;
     margin-top: -95px;
     margin-bottom: 10;
 
