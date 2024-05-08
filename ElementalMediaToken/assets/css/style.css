@@ -173,7 +173,7 @@ color: #FFFFFF;
 }
 .block2 {
     position: relative;
-    background-image: url("/assets/images/-EMT-image.png") !important;
+    background-image: url("/assets/css/emt.png") !important;
     background-size: fill; /* Ensures the entire image is visible, fits the content box */
     background-position: right; /* Centers the image in the block */
     background-repeat: no-repeat; /* Prevents the background image from repeating */
@@ -275,17 +275,7 @@ color: #FFFFFF;
 
     
 }
-.block3 {
-    position: relative;
-    background-image: url("../images/elemental--music--studios.png");
-    background-size: 100% auto; /* Scales the image to fit the width, adjusts height automatically */
-    background-position: bottom center; /* Ensures the image is centered horizontally */
-    background-repeat: no-repeat; /* Prevents the background image from repeating */
-    width: 100%; /* Takes full width of the container */
-    padding-top: (image-height / image-width * 100%); /* Padding top as a percentage of the width */
-    margin-top: -380px; /* Adjusts the block's vertical position */
-    z-index: 2;
-}
+
 
 /* Use a specific class or id for container that defines the max width if needed */
 
