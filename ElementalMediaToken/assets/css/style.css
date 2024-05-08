@@ -173,8 +173,8 @@ color: #FFFFFF;
 }
 .block2 {
     position: relative;
-    background-image: url("/assets/css/elemental-media.png") !important;
-    background-size: fill; /* Ensures the entire image is visible, fits the content box */
+    background-image: url("/ElementalMediaToken\assets\css\elemental-media.png") !important;
+    background-size: cover; /* Ensures the entire image is visible, fits the content box */
     background-position: right; /* Centers the image in the block */
     background-repeat: no-repeat; /* Prevents the background image from repeating */
     width: 200%; /* Full width of the container */
