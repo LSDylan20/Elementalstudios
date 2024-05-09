@@ -173,7 +173,7 @@ color: #FFFFFF;
 }
 .block2 {
     position: relative;
-    background-image: url("./elemental-media.png") !important;
+    background-image: url("./elemental-media.png");
     background-size: cover; /* Ensures the entire image is visible, fits the content box */
     background-position: right; /* Centers the image in the block */
     background-repeat: no-repeat; /* Prevents the background image from repeating */
@@ -197,10 +197,11 @@ color: #FFFFFF;
 
     .block2__links { 
         width: 100%; 
-        height: 20%; 
+        height: 25%; 
         display: flex;
         justify-content: center;
-        padding: 1px;
+        padding: 4px;
+        
     }
     .block2__cont { 
         width: 100%; 
@@ -229,7 +230,7 @@ color: #FFFFFF;
         border-radius: 30px;
         margin-left: 55px;
         border: px solid rgb(44 237 170);
-        width: 30%; /* Adjust width as necessary */
+        width: 37%; /* Adjust width as necessary */
         height: 50%;
         margin-top: 7;
 
@@ -463,10 +464,7 @@ margin-bottom: -5px;
     }
         
 }
-.block2 {
-    position: relative;
-    background-image: url("./EMT-img.png");
-    background-size: cover; /* Ensures the entire image is visible, fits the content box */}
+
 .h5 {
     /* font-size: 38px; */
     font-size: clamp(58px, 5vw, 50px);
@@ -561,7 +559,7 @@ margin-bottom: -5px;
     margin: 0px;
     margin-bottom: -115px;
     height: 41.5%;
-    width: 36%;
+    width: 32%;
     margin-left: 30px;
 }
   
@@ -948,30 +946,40 @@ margin-bottom: -5px;
         width: 70%;
         margin-top: -196px
     }
+    .block2 .content {
+        position: relative;
+        z-index: 1; /* Ensures content is visible above the pseudo-element */
+        width: 100%; /* Ensures content spans the width of the block */
+        height: 100%; 
+    }
+    
+        .block2__links { 
+            width: 100%; 
+            height: 10%; 
+            display: flex;
+            justify-content: center;
+            padding: 1px;
+        }
+        .block2__cont { 
+            width: 100%; 
+            height: 100vh; 
+            display: flex;
+            justify-content: center;
+            padding: px;
+            margin-left: -3%;
+        }
     .block2 {
         position: relative;
         background-image: url("./EMT-img.png");
-        margin-top: -300px;
+        margin-top: 300px;
         background-size:100% 100%; /* Stretches the image to cover the specified area completely */
         background-position: right; /* Centers the image in the block */
         background-repeat: no-repeat; /* Prevents the background image from repeating */
         width: 103%; /* Full width of the container */
         height: 100vh; /* Full height of the viewport */
         margin-left: -8px; /* Adjusts the positioning to the left */
-        margin-top: 0px ;
+        margin-bottom: -45px;
     }
-    .block2__links {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        margin-top: 10px;
-        margin-bottom: 2px;
-        gap: 8px;
-    }
-    
     .link {
         width: 61px;
         height: 490px;
@@ -1025,13 +1033,13 @@ margin-bottom: -5px;
         justify-content: center
         align-items: center;
         margin-right:150px;
-        margin-top: -19px;
+        margin-bottom: 115px;
 
 
     }
     .footer img {
         width: 30px;
-        margin-bottom: 3px;
+        margin-bottom: 0px;
     }
     .footer__text {
         font-size: 47px;
