@@ -465,7 +465,7 @@ margin-bottom: -5px;
 }
 .block2 {
     position: relative;
-    background-image: url("/assets/css/EMT-img.png");
+    background-image: url("./EMT-img.png");
     background-size: cover; /* Ensures the entire image is visible, fits the content box */}
 .h5 {
     /* font-size: 38px; */
@@ -575,7 +575,7 @@ margin-bottom: -5px;
 @media screen and (max-width: 768px) {
     .block2 {
         position: relative;
-        background-image: url("/assets/css/EMT-img.png");
+        background-image: url("./EMT-img.png");
         background-size: cover; /* Ensures the entire image is visible, fits the content box */
         background-position: center; /* Centers the image in the block */
         background-repeat: no-repeat; /* Prevents the background image from repeating */
@@ -676,7 +676,7 @@ margin-bottom: -5px;
     }
     .block2 {
         position: relative;
-        background-image: url("/assets/css/EMT-img.png");
+        background-image: url("./EMT-img.png");
         background-size: 100% 100%; /* Stretches the image to cover the specified area completely */
         background-position: center; /* Centers the image in the block */
         background-repeat: no-repeat; /* Prevents the background image from repeating */
@@ -950,7 +950,7 @@ margin-bottom: -5px;
     }
     .block2 {
         position: relative;
-        background-image: url("/assets/css/EMT-img.png");
+        background-image: url("./EMT-img.png");
         margin-top: -300px;
         background-size:100% 100%; /* Stretches the image to cover the specified area completely */
         background-position: right; /* Centers the image in the block */
