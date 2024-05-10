@@ -977,7 +977,7 @@ margin-bottom: -5px;
         background-repeat: no-repeat; /* Prevents the background image from repeating */
         width: 103%; /* Full width of the container */
         height: 100vh; /* Full height of the viewport */
-        margin-left: -8px; /* Adjusts the positioning to the left */
+        margin-left: -7px; /* Adjusts the positioning to the left */
         margin-bottom: -45px;
     }
     .link {
