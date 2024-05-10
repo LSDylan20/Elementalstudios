@@ -975,7 +975,7 @@ margin-bottom: -5px;
         background-size:100% 100%; /* Stretches the image to cover the specified area completely */
         background-position: right; /* Centers the image in the block */
         background-repeat: no-repeat; /* Prevents the background image from repeating */
-        width: 103%; /* Full width of the container */
+        width: 104%; /* Full width of the container */
         height: 100vh; /* Full height of the viewport */
         margin-left: -7px; /* Adjusts the positioning to the left */
         margin-bottom: -45px;
