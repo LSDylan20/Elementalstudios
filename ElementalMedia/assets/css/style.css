@@ -818,7 +818,7 @@ margin-bottom: -5px;
     }
     #backgroundVideo{
         position: fixed; /* Ensure the video is positioned relative to the viewport */
-        margin-top: 40px;
+        margin-top: 50px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%); /* Center the video exactly in the viewport */
@@ -1032,7 +1032,7 @@ margin-bottom: -5px;
         display: flex;
         justify-content: center
         align-items: center;
-        margin-right:150px;
+        margin-right:110px;
         margin-bottom: 115px;
 
 
