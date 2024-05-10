@@ -846,7 +846,7 @@ margin-bottom: -5px;
         font-size: clamp(20px, 5vw, 50px);
         text-align: center;
         /* margin-top: 10px; */
-        margin-top: 20px;
+        margin-top: 25px;
         padding: 0 25px;
     }
     .h5 {
@@ -858,12 +858,12 @@ margin-bottom: -5px;
         padding: 0px;
     }
     .logo {
-        top: 10px;
+        top: 13px;
         left: 15px;
-        width: 40px;
+        width: 35px;
     }
     .navbar {
-      top: 5px;
+      top: 1px;
       right: 10px;
       padding: 10px;
     }    
@@ -917,7 +917,7 @@ margin-bottom: -5px;
         border: 0px;
         border-radius: 30px;
         margin-top: 0px;
-        margin-bottom: -140px;
+        margin-bottom: -130px;
         margin-right: 19px;
 
     }
