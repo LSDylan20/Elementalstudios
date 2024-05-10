@@ -685,10 +685,10 @@ margin-bottom: -5px;
     
     .block2__links {
         width: 100%;
-        height: 100%;
+        height: 10%;
         display: flex;
         justify-content: center;
-        padding: 0 10px;
+        padding: 10px;
     }
     
     .link {
@@ -958,7 +958,7 @@ margin-bottom: -5px;
             height: 10%; 
             display: flex;
             justify-content: center;
-            padding: 1px;
+            padding: 2px;
         }
         .block2__cont { 
             width: 100%; 
