@@ -829,7 +829,7 @@ margin-bottom: -5px;
         height: 100vh; /* Set height to viewport height */
         z-index: -1; /* Ensure the video stays behind other content */
         object-fit: fill; /* Cover the viewport while maintaining aspect ratio */
-        margin-top: 40px;
+        margin-top: 50px;
     }
 /* Header styling */
 .header {
