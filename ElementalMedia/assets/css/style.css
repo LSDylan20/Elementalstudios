@@ -87,7 +87,12 @@ body {
 /* Responsive adjustments using media queries */
 
 
-
+.menu img {
+    position: absolute;
+    top: 90px;
+    right: 41%;
+    width: 100px;
+}
 
 /* .mew {
     width: clamp( 192px, 30vw, 450px);
